@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #AD8B73;
+  text-align: center;
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #E3CAA5;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #E3CAA5;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #FFFBE9;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #E3CAA5;
+  margin: 20px;
+  padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<title>Content</title>
+</head>
+<body>
+
+<div class="header">
+  <h2>Content Page</h2>
+  <h6> Have a Look!</h6>
+</div>
+
+<div class="card">
+<h1>PHILOSOPHY</h1>
+<h5><a>人是否有自由意志	DO HUMAN BEINGS HAVE FREE WILL</a></h5>	
+<h5><a>人本善或人本惡	HUMAN BEINGS ARE INHERENTLY KIND OR EVIL</a></h5>	
+<h5><a>辛亥革命乃至於清末革命運動應否大多歸功於孫中山	</a></h5>	
+</div>
+
+<div class="card">
+    <h1>HISTORY</h1>
+    <h5><a>A BRIEF HISTORY OF THE WORLD</a></h5>	
+    <h5><a>HISTORY OF COMPUTER</a></h5>	
+    <h5><a>民國歷史 (1911-1949)</a></h5>	
+    <h5><a>葡萄牙歷史</a></h5>	
+    <h5><a>冰島歷史</a></h5>	
+    <h5><a>波蘭歷史</a></h5>	
+</div>
+<div class="card">
+<h1>WONDERFUL WRITINGS</h1>
+<h5><a href="/wariaosickpolo.html">菠蘿記</a></h5>	
+<h5><a>鳳梨傳</a></h5>	
+</div>
+<div class="card">
+    <h1>SELF-MADE PROJECTS
+    </h1>
+    <h5><a>網課頌
+
+        ODE TO ONLINE LESSONS</a></h5>	
+    <h5><a>賢賢圖書館
+
+        LIBRARY OF CLEVE</a></h5>	
+    </div>
+<div class="card">
+        <h1>LAW
+        </h1>
+        <h5><a>免責聲明 Disclaimer</a></h5>	
+        <h5><a>權利法令 Rights Act
+    
+            </a></h5>	
+            <h5><a>論中華民國憲法</a></h5>	
+            <h5><a>論香港刑事罪行</a></h5>	
+</div>
+<div class="card">
+    <h1>RES PUBLICA
+    </h1>
+    <h5><a>理想國憲法</a></h5>	
+    <h5><a>TREATY OF PUBLIC RIGHTS</a></h5>	
+    </div>
+
+<div class="footer">
+  <h2>Thank You for Visiting Us</h2>
+  <p>All Right Reserved For Knowledge Discovery</p>
+  <p>Please email us knowledgediscoveryofficial@gmail.com for any issues</p>
+</div>
+
+</body>
+</html>
